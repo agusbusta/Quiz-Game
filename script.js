@@ -59,8 +59,9 @@ function selectAnswer(e){
     }else{
         startButton.innerText = 'Restart';
         startButton.classList.remove('hide');
+        
     }
-    nextButton.classList.remove('hide');
+    
 
 }
 
@@ -93,6 +94,26 @@ const questions = [
             {text: 'lion', correct: false},
             {text: 'fish', correct: true},
             {text: 'dog', correct: false}
+        
+        ]
+    },
+    {
+        question: "color of barbie logo?",
+        answers: [
+            {text: 'black', correct: false},
+            {text: 'pink', correct: true},
+            {text: 'blue', correct: false},
+            {text: 'white', correct: false},
+        
+        ]
+    },
+    {
+        question: "what is 12 x 5?",
+        answers: [
+            {text: '40', correct: false},
+            {text: '60', correct: true},
+            {text: '50', correct: false},
+            {text: '125', correct: false},
         
         ]
     },
